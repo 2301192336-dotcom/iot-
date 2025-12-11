@@ -64,7 +64,6 @@ window.onload = function(){
 
 
 
-    // 修改：增加 targetIndex 参数，支持点击圆点直接跳转
     function slideTo(direction, targetIndex = -1){
         if(isAnimating) return; 
         isAnimating = true; 
